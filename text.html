@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="PasswordGen.js"></script>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid white;
+            background-color: cadetblue;
+            text-align: center;
+            box-shadow: 12px 8px 20px white;
+            margin: 180px;
+            margin-top: 50px;
+        }
+        #box input{
+            height: 40px;
+            width: 150px;
+            margin-top: 30px;
+
+        } 
+        button{
+            height: 40px;
+            width: 120px;
+            border: 2px solid black;
+            margin-top: 20px;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Random Password Generator</h1></center>
+    <div id="box">
+        <input type="text" id="input">
+        <button onclick="password()">password</button>
+
+    </div>
+</body>
+</html>
